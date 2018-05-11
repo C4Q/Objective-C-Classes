@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5459E59E20A5E15700A8CE44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5459E59D20A5E15700A8CE44 /* main.m */; };
+		5459E5A620A5E19500A8CE44 /* BSPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5459E5A520A5E19500A8CE44 /* BSPoint.m */; };
+		5459E5A920A5E77200A8CE44 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5459E5A820A5E77200A8CE44 /* Vehicle.m */; };
+		5459E5AC20A5EFC100A8CE44 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 5459E5AB20A5EFC100A8CE44 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		5459E59A20A5E15700A8CE44 /* Objective-C-ClassIntro */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C-ClassIntro"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5459E59D20A5E15700A8CE44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5459E5A420A5E19500A8CE44 /* BSPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPoint.h; sourceTree = "<group>"; };
+		5459E5A520A5E19500A8CE44 /* BSPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPoint.m; sourceTree = "<group>"; };
+		5459E5A720A5E77200A8CE44 /* Vehicle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		5459E5A820A5E77200A8CE44 /* Vehicle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		5459E5AA20A5EFC100A8CE44 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		5459E5AB20A5EFC100A8CE44 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		5459E5AD20A5F26100A8CE44 /* Drivable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drivable.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				5459E59D20A5E15700A8CE44 /* main.m */,
+				5459E5A420A5E19500A8CE44 /* BSPoint.h */,
+				5459E5A520A5E19500A8CE44 /* BSPoint.m */,
+				5459E5A720A5E77200A8CE44 /* Vehicle.h */,
+				5459E5A820A5E77200A8CE44 /* Vehicle.m */,
+				5459E5AA20A5EFC100A8CE44 /* Car.h */,
+				5459E5AB20A5EFC100A8CE44 /* Car.m */,
+				5459E5AD20A5F26100A8CE44 /* Drivable.h */,
 			);
 			path = "Objective-C-ClassIntro";
 			sourceTree = "<group>";
@@ -119,6 +136,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5459E59E20A5E15700A8CE44 /* main.m in Sources */,
+				5459E5A620A5E19500A8CE44 /* BSPoint.m in Sources */,
+				5459E5AC20A5EFC100A8CE44 /* Car.m in Sources */,
+				5459E5A920A5E77200A8CE44 /* Vehicle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
